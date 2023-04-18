@@ -1,4 +1,4 @@
---câu 1--
+--cÃ¢u 1--
 CREATE FUNCTION TenHang (@masp nchar(10))
 RETURNS nvarchar(20)
 AS 
@@ -10,7 +10,7 @@ END
 GO
 SELECT dbo.TenHang('SP01')
 GO
---câu 2--
+--cÃ¢u 2--
 CREATE FUNCTION GiaTriNhap (@x int, @y int)
 RETURNS int
 AS
@@ -22,7 +22,7 @@ END
 GO
 SELECT dbo.GiaTriNhap(2019,2021)
 GO
---câu 3--
+--cÃ¢u 3--
 CREATE FUNCTION TongNhapXuat(@tensp nvarchar(20), @y int)
 RETURNS int
 AS
@@ -35,7 +35,7 @@ END
 GO
 SELECT dbo.TongNhapXuat('GalaxyV21', 2020)
 GO
---câu 4--
+--cÃ¢u 4--
 CREATE FUNCTION TongGiaTriNhapNgay(@x int, @y int)
 RETURNS int
 AS
@@ -48,7 +48,7 @@ END
 GO
 SELECT dbo.TongGiaTriNhapNgay(1,20)
 GO
---câu 5--
+--cÃ¢u 5--
 CREATE FUNCTION TongGiaTriXuat(@tenhang nvarchar(20), @y int)
 RETURNS int
 AS
@@ -61,7 +61,7 @@ END
 GO
 SELECT dbo.TongGiaTriXuat('Samsung', 2020)
 GO
---câu 6--
+--cÃ¢u 6--
 CREATE FUNCTION ThongKeNhanVien(@tenphong nvarchar(30))
 RETURNS int
 AS
@@ -74,7 +74,7 @@ END
 GO
 SELECT dbo.ThongKeNhanVien('Ke Toan')
 GO
---câu 7--
+--cÃ¢u 7--
 CREATE FUNCTION Soluongxuattheongay(@tensp nvarchar(20),@y int)
 RETURNS int
 AS
@@ -87,7 +87,7 @@ END
 GO
 SELECT dbo.Soluongxuattheongay('GalaxyV21', 18)
 GO
--- câu 8--
+-- cÃ¢u 8--
 CREATE FUNCTION Sodienthoainhanvienxuat(@x nchar(10))
 RETURNS int
 AS
@@ -100,7 +100,7 @@ END
 GO
 SELECT dbo.Sodienthoainhanvienxuat('X03')
 GO
---câu 9--
+--cÃ¢u 9--
 CREATE FUNCTION TongNhapXuatTheoNam(@tensp nvarchar(20), @y int)
 RETURNS int
 AS
@@ -113,7 +113,7 @@ END
 GO
 SELECT dbo.TongNhapXuatTheoNam('F1Plus', 2020)
 GO
---câu 10--
+--cÃ¢u 10--
 CREATE FUNCTION Tongsoluongsanpham(@tenhang nvarchar(20))
 RETURNS int
 AS
